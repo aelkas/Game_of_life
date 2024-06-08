@@ -5,7 +5,7 @@ A short adaptation of game of life with other functions for future ideas and cha
 
 - You have to first download SFML to be able to use it. Edit in you c_cpp_properties.json file to add to the includePath the path to the include file of SFML so that intellisense can know where it is.
 - Then, in the makefile, it is specified where you should put another time the path to the include folder of SFML and the path to the lib folder of SFML. put them accordingly.
-- Finally, you should put the specific bin files in the same directory as the executable to be able to run the executable. You can do this after compilation. The specific files would be ```sfml-graphics-2.dll ```, ``` sfml-system-2.dll``` and ```sfml-window-2.dll```.
+- Finally, you should put the specific bin files in the same directory as the executable to be able to run the executable. You can do this after compilation. The specific files would be ```sfml-graphics-2.dll ```, ``` sfml-system-2.dll``` and ```sfml-window-2.dll```. You can see that they are already added here, but they correspond to the ```SFML-2.5.1``` version for ```Mingw32``` compiler. You need to add the ones corresponding to your setup.
 
   __N.B:__ if you don't have makefile, just copy the commands on compile and link, and run them on the terminal, it should do the job
 
